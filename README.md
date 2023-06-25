@@ -1,6 +1,6 @@
 # License
 
-This map was made by Kenneth Mejia, LA City Controller.
+This map was made by Kyler Chin, Computer Science Student https://computing.kylerchin.com
 
 Software Development and Map Design: **[Kyler Chin](https://github.com/kylerchin)**
 
