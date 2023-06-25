@@ -496,9 +496,6 @@ export default class App extends React.PureComponent {
     }
 
     const map = new mapboxgl.Map(customobj);
-    //.addControl(new mapboxgl.AttributionControl({
-    // customAttribution: 'Paid for by Mejia for City Controller 2022, FPPC ID#: 1435234 1001 Wilshire Blvd. Suite 102, Los Angeles, CA, 90017. Additional information is available at ethics.lacity.org.'
-    //}));
     this.map = map;
 
     console.log(map);
@@ -1021,12 +1018,11 @@ Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
                   }
                   <div className='md:max-w-xs mt-0'>Covers schools, daycares, and by-resolution locations voted on by City Council. See ordinance for more info.</div>
                   <div className='flex-row  mt-1'>
-                    <a target="_blank" rel='external' className='underline text-mejito' href='https://clkrep.lacity.org/onlinedocs/2020/20-1376-S1_ord_187127_09-03-21.pdf'>41.18 Ordinance</a>
-                    <a target="_blank" rel='author' className='underline text-mejito ml-4' href='https://lacontroller.io'>LA City Controller</a>
+                    <a target="_blank" rel='external' className='underline text-neongreen' href='https://clkrep.lacity.org/onlinedocs/2020/20-1376-S1_ord_187127_09-03-21.pdf'>41.18 Ordinance</a>
                   </div>
                 </div>
               )}
-              <div className={`hidden md:block flex-none ${this.state.infoBoxShown ? 'absolute' : ''} w-6 h-6 bg-opacity-95 bg-mejito text-black rounded-full md:ml-2 md:my-2`}
+              <div className={`hidden md:block flex-none ${this.state.infoBoxShown ? 'absolute' : ''} w-6 h-6 bg-opacity-95 bg-neongreen text-black rounded-full md:ml-2 md:my-2`}
 
                 style={
                   {
@@ -1049,7 +1045,7 @@ Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
                 }
               </div>
 
-              <div className={`block md:hidden ${this.state.infoBoxShown ? 'absolute' : ''} flex-none w-6 h-6 bg-mejito text-black bg-opacity-95 rounded-full ml-2 my-2`}
+              <div className={`block md:hidden ${this.state.infoBoxShown ? 'absolute' : ''} flex-none w-6 h-6 bg-neongreen text-black bg-opacity-95 rounded-full ml-2 my-2`}
                 onClick={(event) => { this.toggleInfoBox() }}>
                 {this.state.infoBoxShown && (
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1069,7 +1065,7 @@ Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
 
 
 
-            <div className={`w-screen md:w-auto  scrollbar-thumb-gray-400 scrollbar-rounded scrollbar scrollbar-thin scrollbar-trackgray-900 max-h-screen transform overflow-y-auto transition-all z-50 sidebar-4118-list md:ml-3 absolute md:static ${(this.state.initialWindowWidth >= 768) ? "" : "-translate-x-full"} md:block md:flex-initial md:mt-1 md:flex-col md:max-w-xs text-xs font-sans bg-zinc-900 md:bg-opacity-90 px-2 py-1 md:rounded-xl mejiascrollbar`}>
+            <div className={`w-screen md:w-auto  scrollbar-thumb-gray-400 scrollbar-rounded scrollbar scrollbar-thin scrollbar-trackgray-900 max-h-screen transform overflow-y-auto transition-all z-50 sidebar-4118-list md:ml-3 absolute md:static ${(this.state.initialWindowWidth >= 768) ? "" : "-translate-x-full"} md:block md:flex-initial md:mt-1 md:flex-col md:max-w-xs text-xs font-sans bg-zinc-900 md:bg-opacity-90 px-2 py-1 md:rounded-xl customscrollbar`}>
 
               <div className='pl-1 pt-2 text-base flex flex-row flex-nowrap'>
                 <svg xmlns="http://www.w3.org/2000/svg"
@@ -1155,15 +1151,6 @@ Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
 
 
 
-          <div className={`absolute md:mx-auto z-9 bottom-2 left-1 md:left-1/2 md:transform md:-translate-x-1/2`}>
-            <a href='https://lacontroller.io/' target="_blank">
-
-
-              <img src='https://lacontroller.io/images/KennethMejia-logo-white-elect.png' className='h-9 md:h-10'></img>
-
-            </a>
-
-          </div>
 
           {this.state.isPopupActive && (
             <div className={`
@@ -1215,7 +1202,7 @@ Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
 
 
 
-          <div className='absolute z-10 md:hidden rounded-full bottom-3 right-3 bg-mejito w-16 h-16 '
+          <div className='absolute z-10 md:hidden rounded-full bottom-3 right-3 bg-neongreen w-16 h-16 '
             onClick={(event: any) => {
               this.toggleList();
               checkStateOfSidebarAndUpdateOtherComponents();
