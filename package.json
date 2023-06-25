@@ -41,7 +41,7 @@
     "test": "craco test",
     "eject": "react-scripts eject",
     "fix": "export NODE_OPTIONS=--openssl-legacy-provider",
-    "sandworm": " sandworm-audit --include-dev  --skip-license-issues  --skip-all"
+    "sandworm": " sandworm-audit --include-dev  --skip-license-issues  --skip-tree --skip-treemap"
   },
   "eslintConfig": {
     "extends": [

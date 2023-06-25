@@ -19,5 +19,22 @@
       "tokml>strxml>tap>glob>minimatch"
     ],
     "notes": "fix dos"
+  },
+  {
+    "id": "SWRM-200-sourcemap-codec-1.4.8",
+    "paths": [
+      "@craco/craco>react-scripts>workbox-webpack-plugin>workbox-build>@rollup/plugin-replace>magic-string>sourcemap-codec",
+      "@craco/craco>react-scripts>workbox-webpack-plugin>workbox-build>@surma/rollup-plugin-off-main-thread>magic-string>sourcemap-codec",
+      "react-scripts>workbox-webpack-plugin>workbox-build>@rollup/plugin-replace>magic-string>sourcemap-codec",
+      "react-scripts>workbox-webpack-plugin>workbox-build>@surma/rollup-plugin-off-main-thread>magic-string>sourcemap-codec"
+    ],
+    "notes": "bruz"
+  },
+  {
+    "id": "GHSA-vh95-rmgr-6w4m",
+    "paths": [
+      "tokml>minimist"
+    ],
+    "notes": "pollution"
   }
 ]
