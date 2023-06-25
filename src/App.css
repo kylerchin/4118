@@ -47,15 +47,15 @@
   display: none !important;
 }
 
-.bg-mejito {
+.bg-neon {
   background-color: #41ffca;
 }
 
-.text-mejito {
+.text-neon {
   color: #41ffca;
 }
 
-.mejiascrollbar::-webkit-scrollbar-thumb {
+.customscrollbar::-webkit-scrollbar-thumb {
      
   border-radius: 8px;
   border: 4px solid #717171;
@@ -63,7 +63,7 @@
   background-color: #717171;  
 }
 
-.mejiascrollbar {
+.customscrollbar {
 scroll-margin-top: 2px;
 scroll-margin-bottom: 2px;
 scroll-margin-right: 3px;
