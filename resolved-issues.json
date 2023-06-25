@@ -1,0 +1,23 @@
+[
+  {
+    "id": "GHSA-xvch-5gv4-984h",
+    "paths": [
+      "tokml>minimist"
+    ],
+    "notes": "resolve minimist"
+  },
+  {
+    "id": "GHSA-34r7-q49f-h37c",
+    "paths": [
+      "tokml>strxml>tap>runforcover>bunker>burrito>uglify-js"
+    ],
+    "notes": "uglify"
+  },
+  {
+    "id": "GHSA-hxm2-r34f-qmc5",
+    "paths": [
+      "tokml>strxml>tap>glob>minimatch"
+    ],
+    "notes": "fix dos"
+  }
+]
