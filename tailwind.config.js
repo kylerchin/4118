@@ -19,7 +19,7 @@ module.exports = {
       },
       colors: {
         truegray: colors.trueGray,
-        mejito: '#41ffca'
+        neon: '#41ffca'
       }
     },
   },
