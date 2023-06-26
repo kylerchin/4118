@@ -69,7 +69,7 @@
     "autoprefixer": "^9.8.8",
     "compress-create-react-app": "^1.1.3",
     "postcss": "^8.4.24",
-    "tailwind-scrollbar": "^1.3.1",
+    "tailwind-scrollbar": "^2.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
 }
